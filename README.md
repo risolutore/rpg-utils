@@ -32,11 +32,11 @@ from dice import Dice
 
 expression = '[5d10+2d6+6]'
 
-# Check if missing '\[' at the biginning of expression
+# Check if missing '[' at the biginning of expression
 if expr[0] != '[':
     expr = f"[{expr}"
 
-# Check if missing '\]' at the end of expression
+# Check if missing ']' at the end of expression
 if expr[len(expr) - 1] != ']':
     expr = f"{expr}]"
 
