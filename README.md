@@ -23,7 +23,7 @@ throws = 3
 print(f"Roll {throws}d10; {d10.multiRoll(throws)}")
 ```
 ## DiceParser
-are som class definition for parsing dice expression like 'd20+3d10+2d6-5'. There is a lexer Tokenizer class and a parser DiceParser class. I developed this in python with the help of the book of Terence Parr [Language Implementation Patterns](https://pragprog.com/titles/tpdsl/language-implementation-patterns/) - great book.   
+There are som class definition for parsing dice expression like 'd20+3d10+2d6-5'. There is a lexer Tokenizer class and a parser DiceParser class. I developed this in python with the help of the book of Terence Parr [Language Implementation Patterns](https://pragprog.com/titles/tpdsl/language-implementation-patterns/) - great book.   
 
 ### Example usage
 ```python
