@@ -50,4 +50,4 @@ except Exception:
 ```
 
 I have some problem with the expression. I must use '\[' and '\]' because parser won't work without. I will spend some time to adjust this later.
-I resolved by checking if are missing '\[' at the start and '\]' at the end of the expression by the two if statement.
+For the moment i resolved by checking if are missing '\[' at the start and '\]' at the end of the expression by the two if statement.
