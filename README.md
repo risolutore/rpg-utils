@@ -32,9 +32,11 @@ from dice import Dice
 
 expression = '[5d10+2d6+6]'
 
+# Check if missing '\[' at the biginning of expression
 if expr[0] != '[':
     expr = f"[{expr}"
 
+# Check if missing '\]' at the end of expression
 if expr[len(expr) - 1] != ']':
     expr = f"{expr}]"
 
@@ -47,4 +49,5 @@ except Exception:
     print(f"Error: {parser.error_msg}")
 ```
 
-
+I have some problem with the expression. I must use '\[' and '\]' because parser won't work without. I will spend some time to adjust this later.
+I resolved by checking if are missing '\[' at the start and '\]' at the end of the expression by the two if statement.
