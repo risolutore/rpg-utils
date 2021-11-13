@@ -10,7 +10,6 @@ The roll method create a list of 5000 dice rolls and get one result from 3999 to
 from dice import Dice
 
 d20 = Dice(20)
-
 print(f"Roll 1d20: {d20.roll()}")
 
 ### Ecxample 2
@@ -18,7 +17,6 @@ from dice import Dice
 
 d10 = Dice(10)
 throws = 3
-
 print(f"Roll {throws}d10; {d10.multiRoll(throws)}")
 
 
