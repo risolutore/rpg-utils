@@ -17,7 +17,7 @@ class Dice():
         lancio = 0
         launches = []
 
-        # generate random rolls list
+        # Generate random rolls list
         for i in range(1, 5000):
             launches.append(rnd.randint(1, self.diceFaces))
 
@@ -30,13 +30,15 @@ class Dice():
 
     def multiRoll(self, launces) -> int:
         self.result = 0
-        lanci = 0
+        lanci = ''
+        lancio = 0
 
         for i in range(0, launces):
-            lanci += self.roll()
-            self.result = lanci
+            lancio = self.roll()
+            lanci += f'{lancio}+'
+            self.result += lancio
         
-        return lanci
+        return lanci[0:-1]
 
 """
 # Example use:
