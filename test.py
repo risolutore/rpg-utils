@@ -25,5 +25,5 @@ try:
 except Exception:
     print(f"Error: {parser.error_msg}")
 
-
-
+# IF SYOU THINK THIS WILL BE USEFULL FOR YOU YOU ARE FREE TO USE THIS CODE EVERYWHERE YOU WANT.
+# CIAO!
