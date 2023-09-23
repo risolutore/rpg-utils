@@ -3,8 +3,10 @@ python scripts for useful utils for rpg games.
 I'm working on a Web app for Role Players in Django and i need a lot of tools to make the site functional.
 
 ## Dice 
-is  a simple class created for roll dice, it can return one roll or more roll at same time. 
-The roll method create a list of 5000 dice rolls and get one result from 3999 to 4999 - one of last 1000 rolls for more accurate randome result,example usage:
+is  a simple class created to develop a dice roller, it can return one roll or more roll at same time. 
+The roll method create a list of 5000 dice rolls and get one result from 3999 to 4999 - egt one of the last 1000 rolls for more accurate randome result. 
+This class implement the same Parser project you can find here in may repository.
+Example usage:
 
 ### Example 1
 ```python
